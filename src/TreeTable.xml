@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<widget id="mendixcn.graph.Graph" pluginWidget="true" needsEntityContext="true" offlineCapable="true" supportedPlatform="Web"
-    xmlns="http://www.mendix.com/widget/1.0/"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
-    <name>Graph</name>
-    <description>My widget description</description>
+<widget id="mendixcn.treeTable.TreeTable" pluginWidget="true" needsEntityContext="true" offlineCapable="true" supportedPlatform="Web" xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>TreeTable</name>
+    <description>Tree table with custom content</description>
     <icon/>
     <properties>
         <propertyGroup caption="General">
@@ -13,20 +11,20 @@
             </property>
             <property key="attribute" type="attribute" required="false">
                 <caption>Attribute</caption>
-                <description></description>
+                <description/>
                 <attributeTypes>
-                    <attributeType name="String" />
+                    <attributeType name="String"/>
                 </attributeTypes>
             </property>
             <property key="datasource" type="datasource" required="true" isList="true">
                 <caption>Data Source</caption>
-                <description></description>
+                <description/>
             </property>
             <property key="att2" type="attribute" required="false" dataSource="datasource">
                 <caption>att2</caption>
-                <description></description>
+                <description/>
                 <attributeTypes>
-                    <attributeType name="String" />
+                    <attributeType name="String"/>
                 </attributeTypes>
             </property>
         </propertyGroup>
